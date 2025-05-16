@@ -74,6 +74,7 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -84,6 +85,8 @@ DATABASES = {
         'PORT':'3306',
     }
 }
+
+#Django user-admin & password-123
 
 
 # Password validation
